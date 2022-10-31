@@ -1,1 +1,1 @@
-https://abulkosim.github.io/online-zoo/
+https://abulkosim.github.io/online-zoo/pages/main/
