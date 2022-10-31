@@ -102,7 +102,7 @@ header a {
 /* Main */
 
 .watch-online-container {
-  background: url('./assets/images/panda.png') no-repeat center center/cover;
+  background: url('/assets/images/panda.png') no-repeat center center/cover;
   height: 89.8vh;
 
 }
