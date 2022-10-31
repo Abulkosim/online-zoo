@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;   
+}
+
+.container {
+  max-width: 100%;
+  font-size: 16px;
+}
+
+/* Add */
+
+
+/* General */
+a {
+  text-decoration: none;
+}
+
+.orange {
+  color: #FE9013;
+}
+
+.yellow {
+  color: #FFEE2E;
+}
+
+/* Header */
+header {
+  background-color: black;
+}
+
+.header-container {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.logo {
+  border: 2px solid white;
+  max-width: 90px;
+  max-height: 57px;
+  padding: 1px;
+  width: 15%;
+}
+
+.logo-h1 {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+nav {
+  display: flex;
+  width: 65%;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  font-weight: 600;
+  justify-content: space-between;
+  width: inherit;
+  margin-left: 7%;
+}
+
+nav ul a:after, 
+.designed-by a:after {
+  content: '';
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: white;
+  transition: 400ms;
+}
+
+.orange-background a:after {
+  background: #F9804B;
+}
+
+nav ul a:hover:after, 
+.designed-by a:hover:after {
+  width: 100%;
+}
+
+.designed-by {
+  font-weight: 600;
+  margin-left: auto;
+}
+
+header a {
+  color: white;
+}
+
+/* Main */
+
+.watch-online-container {
+  background: url('/assets/images/panda.png') no-repeat center center/cover;
+  height: 89.8vh;
+
+}
+
+.watch-online {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  height: 780px;
+  flex-direction: column;
+}
+
+.orange-circle {
+  border-radius: 50%;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  position: absolute;
+  width: 465px;
+  height: 465px;
+  left: 50%;
+  top: 92px;
+}
+
+.watch-online-text {
+  margin-left: calc(50% - 500.31px/2 + 330.15px);
+  margin-top: 8%;
+  z-index: 1;
+  width: 500.31px;
+  height: 400px;
+  font-weight: 700;
+  font-size: 105px;
+  line-height: 75%;
+  text-align: center;
+  color: #FFFFFF;
+  letter-spacing: -2.5px;
+}
+
+.watch-online-button {
+  position: absolute;
+  width: 298px;
+  height: 54px;
+  left: calc(50% - 298px/2 + 332px);
+  top: 626px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  color: white;
+  border-radius: 25px;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.watch-online-button:hover {
+  background: #f85915;
+}
