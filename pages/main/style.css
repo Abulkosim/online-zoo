@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 0 auto;   
+  margin: 0 auto;
 }
 
 .container {
@@ -71,7 +71,7 @@ nav ul {
   margin-left: 7%;
 }
 
-nav ul a:after, 
+nav ul a:after,
 .designed-by a:after {
   content: '';
   width: 0px;
@@ -85,7 +85,7 @@ nav ul a:after,
   background: #F9804B;
 }
 
-nav ul a:hover:after, 
+nav ul a:hover:after,
 .designed-by a:hover:after {
   width: 100%;
 }
@@ -156,4 +156,44 @@ header a {
 
 .watch-online-button:hover {
   background: #f85915;
+}
+
+/* Backstage */
+.backstage-container {
+  background: rgba(253, 253, 255, 0.52);
+}
+
+.backstage {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+  margin-bottom: 180px;
+}
+
+.backstage-image img {
+  width: 609px;
+  height: 403px;
+}
+
+.backstage-text {
+  color: #333B41;
+  line-height: 130%;
+  margin-left: 87px;
+}
+
+.backstage-text h2 {
+  font-size: 48px;
+  line-height: 57.6px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.backstage-text h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  margin-top: 54px;
+  margin-bottom: 34px;
 }
