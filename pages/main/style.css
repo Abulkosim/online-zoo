@@ -198,6 +198,47 @@ header a {
   margin-bottom: 34px;
 }
 
+
+/* Testimonials */
+.testimonials {
+  margin: 0 auto;
+  max-width: 1160px;
+  /* display: flex;
+  flex-direction: column; */
+  padding: 140px 0 180px;
+}
+
+.testimonials-comments {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonials h3 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 130%;
+  text-align: center;
+  color: #333B41;
+  margin-bottom: 47px;
+}
+
+.testimonials-comments-child {
+  background: #F1F3F2;
+  border-radius: 20px;
+  width: 267px;
+  height: 391px;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------------- */
+
 /* Footer */
 
 footer {
