@@ -14,10 +14,6 @@ body {
   font-size: 16px;
 }
 
-/* Add */
-
-
-/* General */
 a {
   text-decoration: none;
 }
@@ -154,10 +150,6 @@ header a {
   font-size: 16px;
 }
 
-.watch-online-button:hover {
-  background: #f85915;
-}
-
 /* Backstage */
 .backstage-container {
   background: rgba(253, 253, 255, 0.52);
@@ -203,8 +195,6 @@ header a {
 .testimonials {
   margin: 0 auto;
   max-width: 1160px;
-  /* display: flex;
-  flex-direction: column; */
   padding: 140px 0 180px;
 }
 
@@ -224,23 +214,86 @@ header a {
 
 .testimonials-comments-child {
   background: #F1F3F2;
-  border-radius: 20px;
   width: 267px;
   height: 391px;
+  padding: 15px;
+  border: 2px solid #F9804B;
+  border-radius: 8px;
+  overflow-y: auto;
 }
 
+.testimonials-profile {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
 
+.testimonials-profile-image {
+  margin-right: 10px;
+}
 
+.testimonials-profile-info h5 {
+  font-size: 16px;
+  line-height: 120%;
+  margin-bottom: 1px;
+}
 
+.testimonials-profile-info span {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+  color: #BDBDBD;
+}
 
+.testimonials-text p {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+  color: #767474;
+}
 
+.testimonials-comments-child::-webkit-scrollbar {
+  width: 4px;
+}
 
+.testimonials-comments-child::-webkit-scrollbar-corner {
+  display: none;
+}
 
+.testimonials-comments-child::-webkit-scrollbar-thumb {
+  background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+    linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
 
-/* ------------------------------------- */
+.testimonials-slider {
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+input[type="range"] {
+  background: #F5F7F6;
+  border-radius: 5px;
+  width: 100%;
+  height: 8px;
+  -webkit-appearance: none;
+  border: 1px solid #fec1b1
+}
+
+input[type=range]:focus {
+  outline: none; 
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border-radius: 5px;
+  background-color: #FE9013;
+  cursor: pointer;
+  width: 25%;
+  height: 7px;
+}
 
 /* Footer */
-
 footer {
   background: #111115;
   padding: 40px 0 50px 0;
@@ -264,7 +317,8 @@ footer a {
   color: #fff;
 }
 
-.donate-btn {
+.donate-btn,
+.testimonials-btn {
   width: 298px;
   height: 54px;
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
@@ -274,11 +328,13 @@ footer a {
   margin-bottom: 50px;
   font-size: 16px;
   cursor: pointer;
+  border: none;
 }
 
-.donate-btn:hover {
-  background: white;
-  color: black;
+.donate-btn:hover,
+.watch-online-button:hover,
+.testimonials-btn:hover {
+  background: #e24e0e;
 }
 
 footer ul {
