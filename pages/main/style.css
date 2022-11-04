@@ -202,6 +202,124 @@ header a {
   margin-bottom: 34px;
 }
 
+/* Pets */
+.pets-container {
+  padding: 0px 220px 100px;
+  background-image: url('../../assets/images/palm.png'), url('../../assets/images/strelitzia.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left bottom, right bottom;
+}
+
+.pets {
+  margin: 0 auto;
+  max-width: 1160px;
+}
+
+.pets-pictures-container {
+  margin-bottom: 80px;
+}
+
+.first-row,
+.second-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-row {
+  margin-bottom: 20px;
+}
+
+.frame {
+  border-radius: 1%;
+  height: 427px;
+  width: 31.55%;
+  border: 0.5px solid #F9804B;
+  overflow: hidden;
+}
+
+.pets-animals {
+  width: 366px;
+  height: 366px;
+}
+
+.panda {
+  background-image: url('../../assets/images/panda1.png');
+  background-repeat: no-repeat;
+}
+
+.eagle {
+  background-image: url('../../assets/images/eagle.png');
+  background-repeat: no-repeat;
+}
+
+.gorilla {
+  background-image: url('../../assets/images/gorilla.png');
+  background-repeat: no-repeat;
+}
+
+.sloth {
+  background-image: url('../../assets/images/sloth.png');
+  background-repeat: no-repeat;
+}
+
+.cheetah {
+  background-image: url('../../assets/images/cheetah.png');
+  background-repeat: no-repeat;
+}
+
+.penguin {
+  background-image: url('../../assets/images/penguin.png');
+  background-repeat: no-repeat;
+}
+
+.animals-info {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+}
+
+.animals-info .native {
+  font-weight: 300;
+font-size: 15px;
+line-height: 120%;
+margin-top: 2px;
+}
+
+.banana,
+.meat {
+  position: relative;
+}
+
+.banana::before {
+  content: '';
+  position: absolute;
+  background-image: url('../../assets/icons/banana.svg');
+  background-repeat: no-repeat;
+  width: 10%;
+  height: 60%;
+  top: 25%;
+  right: 3%;
+}
+
+.meat::before {
+  content: '';
+  position: absolute;
+  background-image: url('../../assets/icons/meat.svg');
+  background-repeat: no-repeat;
+  width: 10%;
+  height: 60%;
+  top: 25%;
+  right: 3%;
+}
+
+
+.favorite-btn {
+  margin: 0 auto;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* Pick and feed a friend */
 .pick-container {
   background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
@@ -487,7 +605,8 @@ footer a {
 }
 
 .donate-btn,
-.testimonials-btn {
+.testimonials-btn,
+.favorite-btn {
   width: 298px;
   height: 54px;
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
@@ -502,7 +621,8 @@ footer a {
 
 .donate-btn:hover,
 .watch-online-button:hover,
-.testimonials-btn:hover {
+.testimonials-btn:hover,
+.favorite-btn:hover {
   background: #e24e0e;
 }
 
