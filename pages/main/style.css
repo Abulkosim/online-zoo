@@ -212,7 +212,7 @@ header a {
 .pick {
   max-width: 1160px;
   margin: 0 auto;
-  padding: 41px 0 59px 99px;
+  padding: 49px 99px 59px 99px;
   background: rgba(253, 253, 255, 0.52);
   backdrop-filter: blur(2px);
   border-radius: 20px;
@@ -271,13 +271,13 @@ header a {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  width: 69%;
+  width: 80%;
   margin-bottom: 60px;
   align-items: center;
 }
 
 .pick-diagram-container-child {
-  width: 168px;
+  width: 170px;
 }
 
 .pick-diagram-child-first {
