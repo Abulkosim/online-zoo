@@ -229,17 +229,41 @@ header a {
   margin-bottom: 20px;
 }
 
-.frame {
+.card {
   border-radius: 1%;
   height: 427px;
   width: 31.55%;
   border: 0.5px solid #F9804B;
   overflow: hidden;
+  position: relative;
+  cursor: pointer;
 }
 
 .pets-animals {
   width: 366px;
   height: 366px;
+}
+
+.pets-hover {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(20, 10, 20);
+  transition: all ease-in 0.5s;
+  color: white;
+  font-size: 24px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.pets-hover h2 {
+  margin: 0 auto;
+}
+
+.card:hover .pets-hover {
+  opacity: 0.9;
 }
 
 .panda {
@@ -280,9 +304,9 @@ header a {
 
 .animals-info .native {
   font-weight: 300;
-font-size: 15px;
-line-height: 120%;
-margin-top: 2px;
+  font-size: 15px;
+  line-height: 120%;
+  margin-top: 2px;
 }
 
 .banana,
