@@ -198,7 +198,39 @@ header a {
   margin: 0px 65px 100px 10px;
 }
 
+/* Amount */
 
+.donate-money-range p {
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 17px;
+}
+
+.donate-money-range-center {
+  text-align: center;
+}
+
+.another-amount input {
+  border: 1px solid #929699;
+  border-radius: 2px;
+  color: #929699;
+  background-color: rgba(255, 255, 255, 0.52);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #929699;
+  padding: 16px 0px 16px 9px;
+  width: 268px;
+  height: 54px;
+  background: transparent;
+  background: url('../../assets/icons/dollar.svg') no-repeat;
+  background-position: 247px center;
+  margin-bottom: 25px;
+}
+
+.another-amount input:focus {
+  outline: none;
+}
 
 
 /* Footer */
