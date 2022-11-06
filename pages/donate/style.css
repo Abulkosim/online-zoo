@@ -131,8 +131,73 @@ header a {
   font-size: 36px;
   line-height: 130%;
   color: #FE9013;
+}
+
+/* Donate money */
+.donate-money {
+  background: rgba(255, 255, 255, 0.52);
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+  padding: 40px 92px 62px 92px;
+  margin-top: 60px;
+}
+
+.donate-money-header {
   margin-bottom: 60px;
 }
+
+.donate-money-header h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #FE9013;
+  margin-bottom: 20px;
+}
+
+.donate-money-header p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #333B41;
+}
+
+/* Illustration */
+
+.donate-money-illustration {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 40px;
+  padding-right: 10px;
+}
+
+.number-of-animals {
+  margin-bottom: 55px;
+}
+
+.number-of-animals-number {
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 80%;
+  text-align: center;
+  margin-bottom: 11px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.number-of-animals-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #333B41;
+}
+
+.x-icon {
+  margin: 0px 65px 100px 10px;
+}
+
 
 
 
