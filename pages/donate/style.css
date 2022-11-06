@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 100%;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.orange {
+  color: #FE9013;
+}
+
+/* Header */
+header {
+  background-color: black;
+}
+
+.header-container {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.logo {
+  border: 2px solid white;
+  max-width: 90px;
+  max-height: 57px;
+  padding: 1px;
+  width: 15%;
+}
+
+.logo-h1 {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+nav {
+  display: flex;
+  width: 65%;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  font-weight: 600;
+  justify-content: space-between;
+  width: inherit;
+  margin-left: 7%;
+}
+
+nav ul a:after,
+.designed-by a:after {
+  content: '';
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: white;
+  transition: 400ms;
+}
+
+.orange-background a:after {
+  background: #F9804B;
+}
+
+nav ul a:hover:after,
+.designed-by a:hover:after {
+  width: 100%;
+}
+
+.designed-by {
+  font-weight: 600;
+  margin-left: auto;
+}
+
+header a {
+  color: white;
+}
+
+/* Main */
+
+.donate-panda {
+  background: url('../../assets/images/panda2.png') no-repeat center center/cover;
+  height: 390px;
+
+}
+
+.donate-donate-container {
+  background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.donate-donate {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 180px;
+}
+
+.donate-donate-info h2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 130%;
+  color: white;
+  margin-bottom: 10px;
+  letter-spacing: -1.7px;
+}
+
+.donate-donate-info p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.donate-donate-info a {
+  font-size: 36px;
+  line-height: 130%;
+  color: #FE9013;
+  margin-bottom: 60px;
+}
+
+
+
+/* Footer */
+footer {
+  background: #111115;
+  padding: 40px 0 50px 0;
+  font-size: 16px;
+}
+
+.footer-container {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer-logo {
+  max-width: 82px;
+  max-height: 52px;
+  border: 0.5px solid #FFFFFF;
+  padding: 3px;
+}
+
+footer a {
+  color: #fff;
+}
+
+.donate-btn,
+.testimonials-btn {
+  width: 298px;
+  height: 54px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 5px;
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.donate-btn:hover,
+.watch-online-button:hover,
+.testimonials-btn:hover,
+.favorite-btn:hover {
+  background: #e24e0e;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul a:hover {
+  color: #FE9013;
+}
+
+footer ul .orange:hover {
+  color: white;
+}
+
+.social-media li {
+  margin-bottom: 5px;
+}
+
+.footer-second {
+  width: 40%;
+}
+
+.footer-second ul {
+  display: flex;
+  margin-top: 316px;
+  justify-content: space-around;
+  margin-left: 47px;
+  margin-bottom: 0;
+}
+
+.footer-third {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-third h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: white;
+  margin-bottom: 13px;
+}
+
+.submit {
+  display: flex;
+}
+
+.submit input {
+  border-radius: 2px;
+  background: #111115;
+  border: 0.5px solid #FE9013;
+  width: 228px;
+  height: 42px;
+  font-size: 16px;
+  line-height: 140%;
+  padding: 10px;
+  color: #BDBDBD;
+  margin-right: 10px;
+}
+
+.submit button {
+  color: #4B9200;
+  background: #F1F3F2;
+  border: 1px solid #4B9200;
+  border-radius: 5px;
+  padding: 10px 39px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.submit button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #4B9200;
+}
+
+.submit input:focus {
+  outline: none;
+}
+
+.done {
+  color: #ffffff94;
+  text-align: right;
+  align-self: flex-end;
+}
