@@ -232,6 +232,46 @@ header a {
   outline: none;
 }
 
+/* input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  border: 1px solid #FE9013;
+  width: 16px;
+  height: 16px;
+} */
+
+
+
+.feed-btn {
+  text-align: center;
+  width: 298px;
+  margin: 0 auto;
+  display: block;
+  padding: 16px 1px 16px 5px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  color: white;
+  border-radius: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 140%;
+  margin-top: 34px;
+  margin-bottom: 30px;
+}
+
+.feed-btn:hover {
+  background: #e24e0e;
+}
+
+.donate-money-range-center p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333B41;
+  margin-bottom: 0;
+}
+
 
 /* Footer */
 footer {
