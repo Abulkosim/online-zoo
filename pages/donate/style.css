@@ -224,7 +224,7 @@ header a {
   height: 54px;
   background: transparent;
   background: url('../../assets/icons/dollar.svg') no-repeat;
-  background-position: 247px center;
+  background-position: 250px;
   margin-bottom: 25px;
 }
 
@@ -232,16 +232,42 @@ header a {
   outline: none;
 }
 
-/* input[type="radio"] {
+.monthly-once {
+  display: flex;
+  width: 195px;
+  margin: 0 auto;
+}
+
+.monthly,
+.once {
+  display: flex;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.monthly {
+  margin-left: -10px;
+}
+
+.monthly-once input {
+  cursor: pointer;
   appearance: none;
-  -webkit-appearance: none;
   border-radius: 50%;
-  border: 1px solid #FE9013;
+  border: 1px solid orange;
   width: 16px;
   height: 16px;
-} */
+  margin-right: 10px;
+}
 
+.monthly-once label {
+  cursor: pointer;
+  color: #333B41;
+}
 
+.monthly-once input:checked {
+  transition: background-color 0.8s;
+  background-color: orange;
+}
 
 .feed-btn {
   text-align: center;
