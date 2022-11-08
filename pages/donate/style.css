@@ -65,13 +65,18 @@ nav ul {
 }
 
 nav ul a:after,
-.designed-by a:after {
+.designed-by a:after,
+.social-media li a:after {
   content: '';
   width: 0px;
   height: 2px;
   display: block;
   background: white;
   transition: 400ms;
+}
+
+.social-media li a:after {
+  height: 1.5px;
 }
 
 .orange-background a:after {
@@ -81,6 +86,10 @@ nav ul a:after,
 nav ul a:hover:after,
 .designed-by a:hover:after {
   width: 100%;
+}
+
+.social-media a:hover:after {
+  width: 40%;
 }
 
 .designed-by {
@@ -360,6 +369,7 @@ footer ul .orange:hover {
 .social-media li {
   margin-bottom: 5px;
 }
+
 
 .footer-second {
   width: 40%;
