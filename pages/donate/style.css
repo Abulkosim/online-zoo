@@ -242,6 +242,62 @@ header a {
   outline: none;
 }
 
+.donate-money-range p {
+  margin-left: 4px;
+}
+
+/* Amount range */
+
+.amount-range-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #404950;
+  width: 976px;
+  height: 27px;
+  border-radius: 2px;
+}
+
+.amount-range-x {
+  width: 915px;
+  height: 2px;
+  background: #72828E;
+}
+
+.amount-range-individial {
+  display: flex;
+  flex-direction: column;
+  width: 65px;
+}
+
+.amount-range-numbers {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-left: 25px;
+}
+
+.amount-range-individial-input {
+  margin: -18px 20px 20px 0;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  appearance: none;
+  border-radius: 50%;
+  background-color: #FFEE2E;
+}
+
+.amount-range-individial-label {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 140%;
+  color: #333B41;
+  cursor: pointer;
+  margin-left: -30px;
+}
+
 .monthly-once {
   display: flex;
   width: 195px;
