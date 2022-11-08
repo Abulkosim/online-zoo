@@ -298,6 +298,16 @@ header a {
   margin-left: -30px;
 }
 
+.amount-range-individial-input:hover {
+  background-color: #FE9013;
+  transform: scale(2);
+}
+
+.amount-range-individial-input:checked {
+  background-color: #FE9013;
+  transform: scale(2);
+}
+
 .monthly-once {
   display: flex;
   width: 195px;
