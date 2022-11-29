@@ -106,7 +106,6 @@ header a {
 .donate-panda {
   background: url('../../assets/images/panda2.png') no-repeat center center/cover;
   height: 390px;
-
 }
 
 .donate-donate-container {
@@ -505,4 +504,79 @@ footer ul .orange:hover {
   color: #ffffff94;
   text-align: right;
   align-self: flex-end;
+}
+
+
+/* Media query */
+@media all and (max-width: 1599px) and (min-width: 1001px) {
+  header {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .watch-online-text {
+    width: 400.25px;
+    height: 320px;
+    left: calc(50% - 400.25px/2 + 214.12px);
+    top: 122.8px;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 75%;
+  }
+
+  .orange-circle {
+    width: 367px;
+    height: 367px;
+    left: calc(50% - 367px/2 + 139.5px);
+    top: 69px;
+  }
+
+  .watch-online-text {
+    margin-top: 42.8px;
+    margin-left: calc(50% - 400.25px/2 + 214.12px);
+  }
+
+  /* Main */
+  .donate-donate {
+    width: 100%;
+    padding: 40px 30px 30px 30px;
+  }
+
+  .donate-donate-info h2 {
+    margin-bottom: 30px;
+  }
+
+  .donate-money {
+    padding: 20px 45px 45px;
+    margin-top: 40px;
+  }
+
+  .donate-money-header h2 {
+    margin-bottom: 10px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 40px 31px 50px 30px;
+  }
+
+  .footer-container {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .footer-second {
+    width: 33%;
+  }
+
+  .footer-second ul {
+    align-self: flex-end;
+    justify-content: space-between;
+    margin-left: -50px;
+  }
+
+  .footer-third h3,
+  .submit {
+    margin-left: -150px;
+  }
 }
