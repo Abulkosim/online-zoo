@@ -68,13 +68,18 @@ nav ul {
 }
 
 nav ul a:after,
-.designed-by a:after {
+.designed-by a:after,
+.social-media li a:after {
   content: '';
   width: 0px;
   height: 2px;
   display: block;
   background: white;
   transition: 400ms;
+}
+
+.social-media li a:after {
+  height: 1.5px;
 }
 
 .orange-background a:after {
@@ -84,6 +89,10 @@ nav ul a:after,
 nav ul a:hover:after,
 .designed-by a:hover:after {
   width: 100%;
+}
+
+.social-media a:hover:after {
+  width: 40%;
 }
 
 .designed-by {
@@ -100,7 +109,6 @@ header a {
 .watch-online-container {
   background: url('../../assets/images/panda.png') no-repeat center center/cover;
   height: 89.8vh;
-
 }
 
 .watch-online {
@@ -176,9 +184,14 @@ header a {
   margin-bottom: 180px;
 }
 
-.backstage-image img {
+.first-image {
   width: 609px;
   height: 403px;
+  display: block;
+}
+
+.second-image {
+  display: none;
 }
 
 .backstage-text {
@@ -256,6 +269,7 @@ header a {
   z-index: 1;
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .pets-hover h2 {
@@ -267,33 +281,29 @@ header a {
 }
 
 .panda {
-  background-image: url('../../assets/images/panda1.png');
-  background-repeat: no-repeat;
+  background: url('../../assets/images/panda1.png') no-repeat center center/cover;
 }
 
 .eagle {
-  background-image: url('../../assets/images/eagle.png');
-  background-repeat: no-repeat;
+  background: url('../../assets/images/eagle.png') no-repeat center center/cover;
+
 }
 
 .gorilla {
-  background-image: url('../../assets/images/gorilla.png');
-  background-repeat: no-repeat;
+  background: url('../../assets/images/gorilla.png') no-repeat center center/cover;
 }
 
 .sloth {
-  background-image: url('../../assets/images/sloth.png');
-  background-repeat: no-repeat;
+  background: url('../../assets/images/sloth.png') no-repeat center center/cover;
+
 }
 
 .cheetah {
-  background-image: url('../../assets/images/cheetah.png');
-  background-repeat: no-repeat;
+  background: url('../../assets/images/cheetah.png') no-repeat center center/cover;
 }
 
 .penguin {
-  background-image: url('../../assets/images/penguin.png');
-  background-repeat: no-repeat;
+  background: url('../../assets/images/penguin.png') no-repeat center center/cover;
 }
 
 .animals-info {
@@ -741,4 +751,84 @@ footer ul .orange:hover {
   color: #ffffff94;
   text-align: right;
   align-self: flex-end;
+}
+
+/* Media query */
+@media all and (max-width: 1599px) and (min-width: 1001px) {
+  header {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .watch-online-text {
+    width: 400.25px;
+    height: 320px;
+    left: calc(50% - 400.25px/2 + 214.12px);
+    top: 122.8px;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 75%;
+  }
+
+  .orange-circle {
+    width: 367px;
+    height: 367px;
+    left: calc(50% - 367px/2 + 139.5px);
+    top: 69px;
+  }
+
+  .watch-online-text {
+    margin-top: 42.8px;
+    margin-left: calc(50% - 400.25px/2 + 214.12px);
+  }
+
+  .watch-online-button {
+    top: 483px;
+    left: calc(50% - 298px/2 + 214px);
+  }
+
+  .backstage {
+    margin-top: 109px;
+    margin-bottom: 153px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .backstage-flower {
+    display: none;
+  }
+
+  .first-image {
+    display: none;
+  }
+
+  .second-image {
+    display: block;
+    width: 455px;
+  }
+
+  .backstage-text {
+    margin-left: 31px; 
+  }
+
+  .pets-container {
+    padding: 0px 30px 100px;
+    background-image: url('../../assets/images/palm2.png'), url('../../assets/images/strelitzia2.png');
+
+  }
+
+  .card {
+    height: 354px;
+    width: 294px;
+  }
+
+  .pets-animals {
+    width: 294px;
+    height: 294px;
+  }
+
+  .pets {
+    margin: 0 auto;
+    max-width: 1001px;
+  }
 }
