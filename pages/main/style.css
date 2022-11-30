@@ -42,7 +42,7 @@ header {
 .logo {
   border: 2px solid white;
   max-width: 90px;
-  max-height: 57px;
+  height: 57px;
   padding: 1px;
   width: 15%;
 }
@@ -98,6 +98,10 @@ nav ul a:hover:after,
 .designed-by {
   font-weight: 600;
   margin-left: auto;
+}
+
+.hamburger {
+  display: none;
 }
 
 header a {
@@ -908,5 +912,146 @@ footer ul .orange:hover {
   .footer-third h3,
   .submit {
     margin-left: -150px;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 641px) {
+
+  nav,
+  .designed-by {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger img {
+    width: 18px;
+    height: 10px;
+  }
+
+  .header-container {
+    max-width: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5px 20px;
+    height: 34px;
+  }
+
+  .logo {
+    border: none;
+    width: 46.86px;
+    height: 29.03px;
+    padding: 0px;
+  }
+
+  .logo-h1 {
+    text-align: center;
+    font-size: 12.2899px;
+    line-height: 120%;
+  }
+
+  .watch-online-container {
+    height: 339px;
+  }
+
+  .watch-online {
+    max-width: 640px;
+    height: 780px;
+  }
+
+  .orange-circle {
+    width: 237.6px;
+    height: 237.6px;
+    left: calc(50% - 237.6px/2 + 130.44px);
+    top: 44.23px;
+  }
+
+  .watch-online-text {
+    font-size: 54.2894px;
+    line-height: 75%;
+    margin-left: calc(50% - 255.64px/2 + 176.76px);
+    top: 82.04px;
+    width: 255.64px;
+    height: 204.38px;
+  }
+
+  .watch-online-button {
+    left: calc(50% - 298px/2 - 151px);
+    top: 279px;
+  }
+
+  .backstage {
+    max-width: 640px;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .first-image {
+    display: none;
+  }
+
+  .second-image {
+    display: none;
+  }
+
+  .backstage-text {
+    margin-left: 0;
+    width: 80%;
+  }
+
+  .backstage-text h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .backstage-flower {
+    width: 231px;
+    height: 476px;
+    right: 0px;
+    top: 368px;
+    background: url(../../assets/images/flower2.png) no-repeat;
+    background-position: right top;
+  }
+
+  .pets-container {
+    padding: 0px 20px 100px;
+    background-image: url('../../assets/images/palm3.png'), url('../../assets/images/strelitzia3.png');
+  }
+
+  .pets {
+    max-width: 640px;
+  }
+
+  .pets-pictures-container {
+    margin-bottom: 70px;
+  }
+
+  .hidden2 {
+    display: none;
+  }
+
+  .pets-animals {
+    width: 285.24px;
+    height: 285.24px;
+  }
+
+  .card {
+    width: 287.24px;
+    height: 340.24px;
+  }
+
+  .animals-info {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .first-row {
+    margin-bottom: 40px;
   }
 }
