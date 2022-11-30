@@ -901,7 +901,7 @@ footer ul .orange:hover {
   .footer-min {
     display: none;
   }
-  
+
   footer {
     padding: 40px 31px 50px 30px;
   }
@@ -1230,8 +1230,14 @@ footer ul .orange:hover {
   .social-media li a:after {
     display: none;
   }
-  
+
   .social-media li:hover {
     transform: scale(1.3);
+  }
+}
+
+@media (min-width: 1600px) {
+  .footer-min {
+    display: none;
   }
 }
