@@ -97,6 +97,10 @@ nav ul a:hover:after,
   margin-left: auto;
 }
 
+.hamburger {
+  display: none;
+}
+
 header a {
   color: white;
 }
@@ -252,13 +256,13 @@ header a {
   justify-content: center;
   align-items: center;
   background-color: #404950;
-  width: 976px;
+  width: 100%;
   height: 27px;
   border-radius: 2px;
 }
 
 .amount-range-x {
-  width: 915px;
+  width: 93.2%;
   height: 2px;
   background: #72828E;
 }
@@ -375,6 +379,11 @@ header a {
 
 
 /* Footer */
+
+.footer-min {
+  display: none;
+}
+
 footer {
   background: #111115;
   padding: 40px 0 50px 0;
@@ -506,7 +515,6 @@ footer ul .orange:hover {
   align-self: flex-end;
 }
 
-
 /* Media query */
 @media all and (max-width: 1599px) and (min-width: 1001px) {
   header {
@@ -556,6 +564,10 @@ footer ul .orange:hover {
   }
 
   /* Footer */
+  .footer-min {
+    display: none;
+  }
+
   footer {
     padding: 40px 31px 50px 30px;
   }
@@ -578,5 +590,203 @@ footer ul .orange:hover {
   .footer-third h3,
   .submit {
     margin-left: -150px;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 641px) {
+  .footer-max {
+    display: none;
+  }
+
+  nav,
+  .designed-by {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger img {
+    width: 18px;
+    height: 10px;
+  }
+
+  .header-container {
+    max-width: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5px 20px;
+    height: 34px;
+  }
+
+  header .logo {
+    border: none;
+    width: 46.86px;
+    height: 29.03px;
+    padding: 0px;
+  }
+
+  header .logo-h1 {
+    text-align: center;
+    font-size: 12.2899px;
+    line-height: 120%;
+  }
+
+  .donate-panda {
+    height: 335px;
+  }
+
+  .donate-donate {
+    max-width: 640px;
+    padding: 30px 20px;
+  }
+
+  .donate-donate-info h2 {
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  .donate-donate-info p {
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+
+  .donate-money {
+    padding: 19px 0 31px;
+    margin-top: 30px;
+  }
+
+  .donate-money-header {
+    margin-bottom: 60px;
+  }
+
+  .donate-money-header p {
+    text-align: center;
+  }
+
+  .donate-money-illustration {
+    align-items: flex-end;
+  }
+
+  .donate-money-range p {
+    margin-left: 10px;
+    margin-bottom: 7px;
+  }
+
+  .amount-range-background {
+    width: 100%;
+  }
+
+  .amount-range-numbers {
+    margin-left: 25px;
+  }
+
+  .input-hidden {
+    display: none;
+  }
+
+  .amount-range-individial-input {
+    margin-left: 5px;
+  }
+
+  .amount-range-individial-label {
+
+    margin-left: -15px;
+  }
+
+  /* 
+
+
+
+
+.amount-range-individial-input:hover {
+  background-color: #FE9013;
+  transform: scale(2);
+}
+
+.amount-range-individial-input:checked {
+  background-color: #FE9013;
+  transform: scale(2);
+} */
+
+  footer {
+    padding: 13px 20px 40px;
+  }
+
+  .footer-container {
+    max-width: 640px;
+  }
+
+  .separate {
+    display: none;
+  }
+
+  .testimonials-btn {
+    margin-bottom: 0;
+  }
+
+  .footer-max {
+    display: none;
+  }
+
+  .footer-first,
+  .footer-second {
+    width: 50%;
+  }
+
+
+  .social-media li {
+    margin-bottom: 15px;
+  }
+
+  .footer-second ul {
+    display: flex;
+    margin-top: 0;
+    flex-direction: column;
+    margin-left: 0;
+    margin-bottom: 42px;
+    align-items: flex-end;
+  }
+
+  .footer-first ul {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-bottom: 0;
+    align-self: flex-end;
+  }
+
+  .footer-second ul img {
+    width: 26px;
+    height: 26px;
+  }
+
+  .done p {
+    margin-bottom: 10px;
+  }
+
+  .social-media li a:after {
+    display: none;
+  }
+
+  .social-media li:hover {
+    transform: scale(1.3);
+  }
+
+
+
+
+
+
+}
+
+@media (min-width: 1600px) {
+  .footer-min {
+    display: none;
   }
 }
