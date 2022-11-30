@@ -636,9 +636,11 @@ input[type=range]::-webkit-slider-thumb {
 
 /* Footer */
 
-.footer-min {
+.footer-min,
+.footer-min-min {
   display: none;
 }
+
 
 footer {
   background: #111115;
@@ -899,7 +901,8 @@ footer ul .orange:hover {
   }
 
   /* Footer */
-  .footer-min {
+  .footer-min,
+  .footer-min-min {
     display: none;
   }
 
@@ -929,6 +932,10 @@ footer ul .orange:hover {
 }
 
 @media (max-width: 1000px) and (min-width: 641px) {
+
+  .footer-min-min {
+    display: none;
+  }
 
   nav,
   .designed-by {
@@ -1237,8 +1244,356 @@ footer ul .orange:hover {
   }
 }
 
-@media (min-width: 1600px) {
+@media (max-width: 640px) and (min-width: 321px) {
+
+  nav,
+  .designed-by {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger img {
+    width: 18px;
+    height: 10px;
+  }
+
+  .header-container {
+    max-width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5px 10px;
+    height: 34px;
+  }
+
+  header .logo {
+    border: none;
+    width: 46.86px;
+    height: 29.03px;
+    padding: 0px;
+  }
+
+  header .logo-h1 {
+    text-align: center;
+    font-size: 12.2899px;
+    line-height: 120%;
+  }
+
+  .watch-online-container {
+    height: 186.96px;
+  }
+
+  .watch-online {
+    max-width: 320px;
+  }
+
+  .orange-circle {
+    width: 119.09px;
+    height: 119.09px;
+    left: calc(50% - 119.09px/2 + 62.45px);
+    top: 62.17px;
+  }
+
+  .watch-online-text {
+    font-size: 28px;
+    margin-left: calc(50% - 128.13px/2 + 85.67px);
+    margin-top: 45.12px;
+    width: 128.13px;
+    height: 102.44px;
+  }
+
+  .watch-online-button {
+    width: 298px;
+    height: 54px;
+    display: block;
+    text-align: center;
+    left: calc(50% - 298px/2);
+    top: 241px;
+  }
+
+  .backstage {
+    max-width: 320px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  .first-image {
+    display: none;
+  }
+
+  .second-image {
+    display: none;
+  }
+
+  .backstage-text {
+    margin-left: 0;
+  }
+
+  .backstage-text h2 {
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 10px;
+  }
+
+  .backstage-text h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .backstage-flower {
+    width: 105px;
+    height: 217px;
+    right: 0px;
+    top: 259px;
+    background: url(../../assets/images/flower3.png) no-repeat;
+    background-position: right top;
+  }
+
+  .pets-container {
+    padding: 0px 17px 60px;
+    background-image: url('../../assets/images/palm4.png'), url('../../assets/images/strelitzia4.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, right bottom;
+  }
+
+  .pets {
+    max-width: 320px;
+  }
+
+  .pets-pictures-container {
+    margin-bottom: 20px;
+  }
+
+  .first-row {
+    margin-bottom: 0;
+  }
+
+  .first-row,
+  .second-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hidden2 {
+    display: none;
+  }
+
+  .card {
+    height: 340px;
+    width: 287.24px;
+    margin-bottom: 20px;
+  }
+
+  .pets-animals {
+    width: 285.24px;
+    height: 285.24px;
+  }
+
+  .animals-info {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+  }
+
+  .pick-container {
+    padding: 20px 10px;
+  }
+
+  .pick {
+    max-width: 320px;
+    padding: 20px 3px 50px;
+  }
+
+  .pick h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .pick-text-first-p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .pick-diagram h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .pick-text-second-p,
+  .pick-text-third-p {
+    display: none;
+  }
+
+
+  .pick-diagram-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .pick-diagram-child-first {
+    margin-top: 0;
+  }
+
+  .pick-diagram-child-first,
+  .pick-diagram-child-second,
+  .pick-diagram-child-third {
+    margin-bottom: 10px;
+  }
+
+  .pick-diagram-container-child {
+    margin-bottom: 29px;
+  }
+
+  .testimonials {
+    max-width: 320px;
+    padding: 30px 10px 60px;
+  }
+
+  .testimonials-comments {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonials h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .testimonials-comments-child {
+    height: 109px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #F9804B;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+
+  .testimonials-profile-image {
+    margin-right: 6px;
+  }
+
+  .testimonials-profile-info h5 {
+    font-weight: 400;
+  }
+
+  .testimonials-comments-child::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  .testimonials-slider {
+    display: none;
+  }
+
+  .leaf {
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    width: 77.21px;
+    height: 75.81px;
+    background: url('../../assets/images/leaf3.png') no-repeat;
+    background-position: right top;
+  }
+
+  .testimonials-btn {
+    margin: 20px auto 0;
+  }
+
+  .footer {
+    padding: 18px 13px 20px 9px;
+  }
+
+  .footer-container {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .footer-logo {
+    width: 204px;
+    height: 23px;
+    border: none;
+    padding: none;
+    margin: 0 auto;
+  }
+
+  .footer-logo h1 {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 120%;
+  }
+
+  .social-media li {
+    margin-bottom: 0;
+  }
+
+  .footer-second {
+    width: 100%;
+  }
+
+  .footer-second ul {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .footer-first ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: -10px;
+  }
+
+  .social-media li a:after {
+    display: none;
+  }
+
+  .social-media li:hover {
+    transform: scale(1.3);
+  }
+
+  .done {
+    color: #ffffff94;
+    text-align: right;
+    align-self: flex-end;
+    margin-bottom: 30px;
+    margin-top: -10px;
+  }
+
+  .done p {
+    margin-bottom: 10px;
+  }
+
+  .footer-max,
   .footer-min {
+    display: none;
+  }
+
+}
+
+@media (min-width: 1600px) {
+
+  .footer-min,
+  .footer-min-min {
     display: none;
   }
 }
