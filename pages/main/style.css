@@ -898,6 +898,10 @@ footer ul .orange:hover {
   }
 
   /* Footer */
+  .footer-min {
+    display: none;
+  }
+  
   footer {
     padding: 40px 31px 50px 30px;
   }
