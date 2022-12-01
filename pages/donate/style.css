@@ -596,6 +596,13 @@ footer ul .orange:hover {
 }
 
 @media (max-width: 1000px) and (min-width: 641px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+  }
 
   .footer-max,
   .footer-min-min {
@@ -765,6 +772,13 @@ footer ul .orange:hover {
 }
 
 @media (max-width: 640px) and (min-width: 321px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+  }
 
   nav,
   .designed-by {
