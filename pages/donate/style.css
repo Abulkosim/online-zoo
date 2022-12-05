@@ -616,6 +616,7 @@ footer ul .orange:hover {
 
   .hamburger {
     display: block;
+    cursor: pointer;
   }
 
   .hamburger img {
