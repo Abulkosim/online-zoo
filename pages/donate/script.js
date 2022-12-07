@@ -24,7 +24,7 @@ overlay.addEventListener('click', () => {
 
 for (let i = 0; i < inputAmount.length; i++) {
   inputAmount[i].addEventListener('click', () => {
-    labelAmount.forEach(element => element.style.color = 'black');
+    labelAmount.forEach(element => element.style.color = '#333B41');
     anotherAmount.value = inputAmount[i].value.slice(1);
     labelAmount[i].style.color = '#FE9013';
   })
@@ -34,7 +34,7 @@ anotherAmount.addEventListener('input', () => {
   let anotherAmountValue = anotherAmount.value;
   for (let k = 0; k < inputAmount.length; k++) {
     if (anotherAmountValue == inputAmount[k].value.slice(1)) {
-      labelAmount.forEach(element => element.style.color = 'black');
+      labelAmount.forEach(element => element.style.color = '#333B41');
       inputAmount.forEach(input => input.removeAttribute('checked'))
       labelAmount[k].style.color = '#FE9013';
       inputAmount[k].checked = 'true';
