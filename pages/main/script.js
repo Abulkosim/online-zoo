@@ -1,4 +1,4 @@
-alert('Hey! How are you? This week I couldn\'t finish it on time because I had to prepare for an interview. Could you please check it later? Thanks!')
+alert('Hey! How are you? This week I couldn\'t finish it on time because I had to prepare for an interview. Could you please check it later? Thanks!');
 let body = document.querySelector('body');
 let hamburgerMenu = document.querySelector('.hamburger');
 let openBurMenu = document.querySelector('.open-bur-menu');
