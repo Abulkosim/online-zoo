@@ -27,14 +27,35 @@ a {
   color: #FFEE2E;
 }
 
+.pets-button {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.left-button,
+.right-button {
+  width: 60px;
+  height: 60px;
+  background-color: #FE9013;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.left-button:hover, 
+.right-button:hover {
+  background: #e24e0e;
+}
+
 /* Hamburger Menu */
 .open-bur-menu {
   display: none;
 }
-
-
-
-
 
 /* Header */
 header {
@@ -244,7 +265,11 @@ header a {
 }
 
 .pets-pictures-container {
-  margin-bottom: 80px;
+  margin-bottom: 30px;
+}
+
+.pets-pictures-container-second {
+  display: none;
 }
 
 .first-row,
@@ -1442,6 +1467,9 @@ footer ul .orange:hover {
 }
 
 @media (max-width: 639px) and (min-width: 320px) {
+.pets-button {
+  display: none;
+}
   .open-bur-menu {
     display: none;
     width: 100%;
@@ -1660,7 +1688,7 @@ footer ul .orange:hover {
   }
 
   .pets-pictures-container {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 
   .first-row {
@@ -1786,7 +1814,7 @@ footer ul .orange:hover {
     margin-bottom: 20px;
     padding: 20px 36px 17px 17px;
   }
-  
+
   .popup-child::-webkit-scrollbar {
     display: none;
   }
