@@ -304,7 +304,6 @@ header a {
 .amount-range-individial-input:checked {
   background-color: #FE9013;
   transform: scale(2);
-  
 }
 
 label[for="$100"] {
