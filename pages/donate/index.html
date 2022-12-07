@@ -125,49 +125,51 @@
                   <div class="amount-range-individial input-hidden">
                     <input class="amount-range-individial-input" type="radio" id="$5000" value="$5000"
                       name="amount-range-radio">
-                    <label class="amount-range-individial-label" for="5000">&#36;5000</label>
+                    <label class="amount-range-individial-label" for="$5000">&#36;5000</label>
                   </div>
                   <div class="amount-range-individial input-hidden">
                     <input class="amount-range-individial-input" type="radio" id="$2000" value="$2000"
                       name="amount-range-radio">
-                    <label class="amount-range-individial-label" for="2000">&#36;2000</label>
+                    <label class="amount-range-individial-label" for="$2000">&#36;2000</label>
                   </div>
                   <div class="amount-range-individial input-hidden">
                     <input class="amount-range-individial-input" type="radio" id="$1000" value="$1000"
                       name="amount-range-radio">
-                    <label class="amount-range-individial-label" for="1000">&#36;1000</label>
+                    <label class="amount-range-individial-label" for="$1000">&#36;1000</label>
                   </div>
                   <div class="amount-range-individial">
                     <input class="amount-range-individial-input" type="radio" id="$500" value="$500"
                       name="amount-range-radio">
-                    <label class="amount-range-individial-label" for="500">&#36;500</label>
+                    <label class="amount-range-individial-label" for="$500">&#36;500</label>
                   </div>
                   <div class="amount-range-individial">
                     <input class="amount-range-individial-input" type="radio" id="$250" value="$250"
-                      name="amount-range-radio" checked>
-                    <label class="amount-range-individial-label" for="250">&#36;250</label>
+                      name="amount-range-radio">
+                    <label class="amount-range-individial-label" for="$250">&#36;250</label>
                   </div>
                   <div class="amount-range-individial">
                     <input class="amount-range-individial-input" type="radio" id="$100" value="$100"
-                      name="amount-range-radio">
-                    <label class="amount-range-individial-label" for="100">&#36;100</label>
+                      name="amount-range-radio" checked>
+                    <label class="amount-range-individial-label" for="$100">&#36;100</label>
                   </div>
                   <div class="amount-range-individial">
                     <input class="amount-range-individial-input" type="radio" id="$50" value="$50"
                       name="amount-range-radio">
-                    <label class="amount-range-individial-label" for="50">&#36;50</label>
+                    <label class="amount-range-individial-label" for="$50">&#36;50</label>
                   </div>
                   <div class="amount-range-individial">
                     <input class="amount-range-individial-input" type="radio" id="$25" value="$25"
                       name="amount-range-radio">
-                    <label class="amount-range-individial-label" for="25">&#36;25</label>
+                    <label class="amount-range-individial-label" for="$25">&#36;25</label>
                   </div>
                 </div>
               </div>
 
               <div class="donate-money-range-center">
                 <div class="another-amount">
-                  <input type="text" placeholder="Another amount">
+                  <input class="another-amount-input" type="number" maxlength="4" value="100"
+                    placeholder="Another amount" max="9999"
+                    oninput="javascript: if (value.length > 4) value = value.slice(0, 4);">
                 </div>
                 <div class="monthly-once">
                   <div class="monthly">
