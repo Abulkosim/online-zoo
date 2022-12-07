@@ -22,6 +22,10 @@ a {
   color: #FE9013;
 }
 
+.open-bur-menu {
+  display: none;
+}
+
 /* Header */
 header {
   background-color: black;
