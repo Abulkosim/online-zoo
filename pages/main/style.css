@@ -47,7 +47,7 @@ a {
   cursor: pointer;
 }
 
-.left-button:hover, 
+.left-button:hover,
 .right-button:hover {
   background: #e24e0e;
 }
@@ -563,7 +563,7 @@ header a {
   padding: 140px 0 180px;
 }
 
-.testimonials-comments {
+.testimonials-comments-container {
   display: flex;
   justify-content: space-between;
 }
@@ -654,7 +654,7 @@ input[type=range]::-webkit-slider-thumb {
   border-radius: 5px;
   background-color: #FE9013;
   cursor: pointer;
-  width: 25%;
+  width: 12.5%;
   height: 7px;
 }
 
@@ -1357,7 +1357,7 @@ footer ul .orange:hover {
     display: none;
   }
 
-  .testimonials-comments {
+  .testimonials-comments-container {
     display: flex;
     flex-direction: column;
   }
@@ -1467,9 +1467,10 @@ footer ul .orange:hover {
 }
 
 @media (max-width: 639px) and (min-width: 320px) {
-.pets-button {
-  display: none;
-}
+  .pets-button {
+    display: none;
+  }
+
   .open-bur-menu {
     display: none;
     width: 100%;
@@ -1786,7 +1787,7 @@ footer ul .orange:hover {
     padding: 30px 10px 60px;
   }
 
-  .testimonials-comments {
+  .testimonials-comments-container {
     display: flex;
     flex-direction: column;
   }

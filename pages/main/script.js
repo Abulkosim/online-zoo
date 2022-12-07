@@ -1,4 +1,3 @@
-alert('Hey! How are you? This week I couldn\'t finish it on time because I had to prepare for an interview. Could you please check it later? Thanks!');
 let body = document.querySelector('body');
 let hamburgerMenu = document.querySelector('.hamburger');
 let openBurMenu = document.querySelector('.open-bur-menu');
@@ -9,6 +8,11 @@ let leftButton = document.querySelector('.left-button');
 let rightButton = document.querySelector('.right-button');
 let firstContainer = document.querySelector('.pets-pictures-container-first');
 let secondContainer = document.querySelector('.pets-pictures-container-second');
+let slider = document.querySelector('.testimonials-slider-input');
+let one = document.querySelector('.testimonials-first');
+let two = document.querySelector('.testimonials-second');
+two.style.display = 'none';
+
 
 hamburgerMenu.addEventListener('click', () => {
   openBurMenu.style.display = 'block';
@@ -58,6 +62,12 @@ rightButton.addEventListener('click', () => {
   }
 })
 
-
-
-
+slider.addEventListener('change', () => {
+  if (two.style.display == 'none') {
+    one.style.display = 'none';
+    two.style.display = 'block';
+  } else {
+    two.style.display = 'none';
+    one.style.display = 'block';
+  }
+})
